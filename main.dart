@@ -28,8 +28,6 @@ class App extends StatefulWidget {
 class AppState extends State<App> {
   final AuthService _auth = AuthService();
 
-  DocumentReference userRef;
-
   initState() {
     super.initState();
     _auth.state.listen((user) {
