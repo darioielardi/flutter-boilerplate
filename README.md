@@ -6,7 +6,7 @@ My personal Flutter `lib` boilerplate, with following features:
 - Firebase Authentication for Google signin.
 - User creation/fetching from Cloud Firestore
 
-# To Use
+# How To
 
 - Add these plugins to pubspec: `firebase_auth`, `google_sign_in`, `cloud_firestore`, `shared_preferences` and `rxdart`
 - Rename package name in every import
